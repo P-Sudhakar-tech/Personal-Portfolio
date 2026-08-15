@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sudhakar Ponugoti | Python Developer</title>
+<meta name="description" content="Portfolio of Sudhakar Ponugoti, Python Developer specializing in Django, DRF, and scalable backend systems." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="noise"></div>
+
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="#home" class="logo">SP<span class="dot">.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle theme" title="Toggle theme">
+        <svg class="sun" viewBox="0 0 24 24" width="18" height="18"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" stroke-linecap="round"/></svg>
+        <svg class="moon" viewBox="0 0 24 24" width="18" height="18"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z"/></svg>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <p class="eyebrow reveal">Hello, I'm</p>
+      <h1 class="reveal">Sudhakar Ponugoti</h1>
+      <h2 class="hero-role reveal"><span class="typed" id="typed"></span><span class="cursor">|</span></h2>
+      <p class="hero-desc reveal">
+        Python Developer with 5+ years of experience building scalable backend applications
+        using Python, Django, and Django REST Framework &mdash; from REST API design and database
+        optimization to bulk data processing with Pandas &amp; Polars.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+      <div class="hero-socials reveal">
+        <a href="https://github.com/P-Sudhakar-tech" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.1 3.29 9.4 7.86 10.93.57.1.78-.25.78-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.72 1.26 3.38.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11.05 11.05 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.58.24 2.75.12 3.04.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.42.36.78 1.07.78 2.16v3.2c0 .3.2.66.79.55A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/ponugoti-sudhakar-37029a18b" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" width="20" height="20"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM.5 8.98h4.9V23H.5V8.98ZM8.5 8.98h4.7v1.93h.07c.65-1.23 2.25-2.53 4.63-2.53 4.95 0 5.86 3.26 5.86 7.5V23h-4.9v-6.3c0-1.5-.03-3.44-2.1-3.44-2.1 0-2.42 1.64-2.42 3.33V23H8.5V8.98Z"/></svg>
+        </a>
+        <a href="mailto:ponugotisudhakar@outlook.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" width="20" height="20"><path d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13Zm2.2.5 7.3 6.1a.8.8 0 0 0 1 0L19.8 6H4.2Z"/></svg>
+        </a>
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <p class="section-label">01 &mdash; About</p>
+      <h2 class="section-title">Professional Summary</h2>
+      <div class="about-grid">
+        <p class="about-text">
+          I'm a backend-focused Python Developer with over five years of experience designing and
+          building scalable, maintainable web applications. My core strength lies in
+          <strong>Django</strong> and <strong>Django REST Framework</strong>, where I architect REST
+          APIs, optimize databases, and build robust data pipelines using <strong>Pandas</strong> and
+          <strong>Polars</strong>. I've delivered production systems handling bulk data import/export,
+          asynchronous task processing, and large-scale performance tuning &mdash; and I actively
+          contribute to open-source Django tooling.
+        </p>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-num" data-count="5">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" data-count="3">0</span>
+            <span class="stat-label">Major Projects</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" data-count="2">0</span>
+            <span class="stat-label">Companies</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="skills">
+    <div class="container">
+      <p class="section-label">02 &mdash; Skills</p>
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Programming &amp; Frameworks</h3>
+          <div class="chips">
+            <span>Python</span><span>SQL</span><span>Django</span><span>Django REST Framework</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Backend</h3>
+          <div class="chips">
+            <span>REST API Development</span><span>Django ORM</span><span>Backend Architecture</span><span>API Integration</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Libraries &amp; Packages</h3>
+          <div class="chips">
+            <span>Pandas</span><span>Polars</span><span>NumPy</span><span>Requests</span><span>XlsxWriter</span><span>SQLAlchemy</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Databases</h3>
+          <div class="chips">
+            <span>MySQL</span><span>PostgreSQL</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Version Control</h3>
+          <div class="chips">
+            <span>Git</span><span>GitHub</span><span>GitLab</span><span>Bitbucket</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>Tools &amp; OS</h3>
+          <div class="chips">
+            <span>Postman</span><span>VS Code</span><span>PyCharm</span><span>Ubuntu</span><span>Windows</span>
+          </div>
+        </div>
+        <div class="skill-card wide">
+          <h3>Concepts</h3>
+          <div class="chips">
+            <span>OOP</span><span>R&amp;D</span><span>Code Optimization</span><span>Performance Tuning</span>
+            <span>SDLC</span><span>Data Validation</span><span>Bulk Data Processing</span>
+            <span>Excel Import/Export</span><span>Authentication &amp; Authorization</span><span>Exception Handling</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <div class="container">
+      <p class="section-label">03 &mdash; Experience</p>
+      <h2 class="section-title">Professional Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Senior Specialist Engineering (Python Developer)</h3>
+              <span class="timeline-date">Jul 2024 &ndash; Present</span>
+            </div>
+            <p class="timeline-company">Aparajitha Corporate Services Pvt. Ltd &middot; Bengaluru, Karnataka</p>
+            <ul>
+              <li>Developed scalable web-based applications using Python, Django, and Django REST Framework (DRF).</li>
+              <li>Conducted R&amp;D to automate SDLC processes and optimize server and storage performance.</li>
+              <li>Designed product- and service-oriented backend solutions using Django, MySQL, and RESTful architecture.</li>
+              <li>Built reusable Python/Django modules for efficient data processing and backend automation.</li>
+              <li>Implemented bulk data import/export functionality using XlsxWriter with dynamic data validation.</li>
+              <li>Designed dynamic Excel templates using Pandas with schema-based validation to ensure data integrity.</li>
+              <li>Implemented backend validation logic enforcing business rules consistent with frontend validations.</li>
+              <li>Optimized backend performance for large datasets via chunk-based loading with Django QuerySets and SQLAlchemy, reducing memory consumption and improving query efficiency.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Python Developer</h3>
+              <span class="timeline-date">May 2021 &ndash; Jun 2024</span>
+            </div>
+            <p class="timeline-company">Mindpool Technologies &middot; Bengaluru, Karnataka</p>
+            <ul>
+              <li>Developed web-based applications using Python, Django, and MySQL.</li>
+              <li>Developed shell scripts to automate backend processes and operational tasks.</li>
+              <li>Performed Django ORM updates and SQL modifications without data loss in production.</li>
+              <li>Developed Pandas-based data processing to optimize server performance.</li>
+              <li>Participated in requirement analysis, development, testing, and deployment.</li>
+              <li>Used Git and Bitbucket for version control and collaborative development.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="projects">
+    <div class="container">
+      <p class="section-label">04 &mdash; Projects</p>
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-card-top">
+            <span class="project-index">01</span>
+            <span class="project-tag">Client Project</span>
+          </div>
+          <h3>Compfie General Master</h3>
+          <p class="project-client">Aparajitha Corporate Services Pvt. Ltd &middot; Python Developer</p>
+          <p class="project-desc">
+            A master data management platform for client information including group master,
+            legal entities, units, service locations, contractors, pay groups, employee master,
+            contract labour, and work order master.
+          </p>
+          <ul class="project-points">
+            <li>Backend built with Python, Django, and Django REST Framework</li>
+            <li>Automated SDLC performance-related tasks</li>
+            <li>Bulk Upload functionality with XlsxWriter and dynamic validations</li>
+            <li>Dynamic Excel formats with Pandas schema validation</li>
+          </ul>
+          <div class="project-stack">
+            <span>Python</span><span>Django</span><span>DRF</span><span>MySQL</span><span>Pandas</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-top">
+            <span class="project-index">02</span>
+            <span class="project-tag">Client Project</span>
+          </div>
+          <h3>Payroll Services</h3>
+          <p class="project-client">Aparajitha Corporate Services Pvt. Ltd &middot; Python Developer</p>
+          <p class="project-desc">
+            A payroll management system supporting HRMS operations, auto-approval/rejection,
+            and hierarchy-level approvals for monthly payroll.
+          </p>
+          <ul class="project-points">
+            <li>Backend components built using Python and Django</li>
+            <li>Automated SDLC processes related to storage and network performance</li>
+            <li>Service-oriented architecture integrating Django, MySQL, and Angular</li>
+            <li>Maintained technical documentation for all project modules</li>
+          </ul>
+          <div class="project-stack">
+            <span>Python</span><span>Django</span><span>MySQL</span><span>Angular</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-top">
+            <span class="project-index">03</span>
+            <span class="project-tag">Open Source</span>
+          </div>
+          <h3>Django-Mindoff</h3>
+          <p class="project-client">Open Source Contributor &middot; Python/Django</p>
+          <p class="project-desc">
+            An open-source backend framework built with Django and DRF for scalable enterprise
+            apps &mdash; reusable REST APIs, Polars-based data processing, async task processing,
+            and standardized project architecture.
+          </p>
+          <ul class="project-points">
+            <li>Fixed "TemplateDoesNotExist: index.html" via TEMPLATES['DIRS'] config (PR #57 / Issue #56)</li>
+            <li>Refactored Dramatiq worker health check to use a direct broker probe (Fix #50)</li>
+            <li>Wrote automated Pytest cases for worker availability &amp; broker error handling</li>
+            <li>Collaborated via GitHub PRs, issue resolution, and code reviews</li>
+          </ul>
+          <div class="project-stack">
+            <span>Python</span><span>Django</span><span>DRF</span><span>Polars</span><span>Pytest</span>
+          </div>
+          <a class="project-link" href="https://github.com/mindoffwork/django-mindoff" target="_blank" rel="noopener">
+            View Repository
+            <svg viewBox="0 0 24 24" width="14" height="14"><path d="M7 17 17 7M17 7H9M17 7v8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="education">
+    <div class="container">
+      <p class="section-label">05 &mdash; Education</p>
+      <h2 class="section-title">Education</h2>
+      <div class="edu-card">
+        <div class="edu-icon">
+          <svg viewBox="0 0 24 24" width="26" height="26"><path d="M12 3 1 8l11 5 9-4.1V17h2V8L12 3Z"/><path d="M5 10.5V16c0 1.5 3 3.5 7 3.5s7-2 7-3.5v-5.5" fill="none" stroke-width="1.6"/></svg>
+        </div>
+        <div>
+          <h3>Bachelor of Technology (B.Tech)</h3>
+          <p>Jawaharlal Nehru Technological University (JNTU), Hyderabad</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt contact-section" id="contact">
+    <div class="container">
+      <p class="section-label">06 &mdash; Contact</p>
+      <h2 class="section-title">Let's Work Together</h2>
+      <p class="contact-desc">
+        Open to backend engineering roles and collaborations. Feel free to reach out directly.
+      </p>
+      <div class="contact-grid">
+        <a href="mailto:ponugotisudhakar@outlook.com" class="contact-card">
+          <svg viewBox="0 0 24 24" width="22" height="22"><path d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5v-13Zm2.2.5 7.3 6.1a.8.8 0 0 0 1 0L19.8 6H4.2Z"/></svg>
+          <div>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">ponugotisudhakar@outlook.com</span>
+          </div>
+        </a>
+        <a href="tel:+916309545626" class="contact-card">
+          <svg viewBox="0 0 24 24" width="22" height="22"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.9 21 3 13.1 3 3.7c0-.5.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.3 0 .7-.2 1L6.6 10.8Z"/></svg>
+          <div>
+            <span class="contact-label">Phone</span>
+            <span class="contact-value">+91 63095 45626</span>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/ponugoti-sudhakar-37029a18b" target="_blank" rel="noopener" class="contact-card">
+          <svg viewBox="0 0 24 24" width="22" height="22"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM.5 8.98h4.9V23H.5V8.98ZM8.5 8.98h4.7v1.93h.07c.65-1.23 2.25-2.53 4.63-2.53 4.95 0 5.86 3.26 5.86 7.5V23h-4.9v-6.3c0-1.5-.03-3.44-2.1-3.44-2.1 0-2.42 1.64-2.42 3.33V23H8.5V8.98Z"/></svg>
+          <div>
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">ponugoti-sudhakar</span>
+          </div>
+        </a>
+        <a href="https://github.com/P-Sudhakar-tech" target="_blank" rel="noopener" class="contact-card">
+          <svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.1 3.29 9.4 7.86 10.93.57.1.78-.25.78-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.72 1.26 3.38.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.18 1.18a11.05 11.05 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.58.24 2.75.12 3.04.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.42.36.78 1.07.78 2.16v3.2c0 .3.2.66.79.55A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
+          <div>
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">P-Sudhakar-tech</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="year"></span> Sudhakar Ponugoti. Built with HTML, CSS &amp; JS.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
