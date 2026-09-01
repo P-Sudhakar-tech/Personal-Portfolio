@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Sudhakar Ponugoti | Python Developer</title>
 <meta name="description" content="Portfolio of Sudhakar Ponugoti, Python Developer specializing in Django, DRF, and scalable backend systems." />
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23d97757'/%3E%3Ctext x='32' y='45' font-family='Space Grotesk, Arial, sans-serif' font-size='38' font-weight='700' text-anchor='middle' fill='%23ffffff'%3ESP%3C/text%3E%3C/svg%3E" />
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23d97757'/%3E%3Ctext x='32' y='45' font-family='Space Grotesk, Arial, sans-serif' font-size='38' font-weight='700' text-anchor='middle' fill='%23ffffff'%3ESP%3C/text%3E%3C/svg%3E" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css" />
@@ -88,7 +88,7 @@
             <span class="stat-label">Years Experience</span>
           </div>
           <div class="stat-card">
-            <span class="stat-num" data-count="3">0</span>
+            <span class="stat-num" data-count="4">0</span>
             <span class="stat-label">Major Projects</span>
           </div>
           <div class="stat-card">
@@ -273,6 +273,34 @@
             <span>Python</span><span>Django</span><span>DRF</span><span>Polars</span><span>Pytest</span>
           </div>
           <a class="project-link" href="https://github.com/mindoffwork/django-mindoff" target="_blank" rel="noopener">
+            View Repository
+            <svg viewBox="0 0 24 24" width="14" height="14"><path d="M7 17 17 7M17 7H9M17 7v8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-top">
+            <span class="project-index">04</span>
+            <span class="project-tag">Open Source</span>
+          </div>
+          <h3>TurboFastApply</h3>
+          <p class="project-client">Open Source Author &middot; Rust/Python</p>
+          <p class="project-desc">
+            A high-performance drop-in replacement for pandas' <code>.apply()</code>, published on PyPI.
+            Detects eligible functions and routes them through a native Rust compute engine, falling back
+            to standard pandas for anything it can't safely accelerate.
+          </p>
+          <ul class="project-points">
+            <li>Rust core compute engine exposed to Python via PyO3 and built with Maturin</li>
+            <li>~1.9&ndash;2x speedup on numeric transforms, ~4&ndash;4.5x on row-wise operations</li>
+            <li>Automatic eligibility detection with sampling-based threaded fallback</li>
+            <li>GroupBy support with parallel optimization for large groups (800+)</li>
+            <li>Configurable engines (auto / pandas / native) with verbose and progress-bar modes</li>
+          </ul>
+          <div class="project-stack">
+            <span>Rust</span><span>Python</span><span>PyO3</span><span>Maturin</span><span>Pandas</span><span>NumPy</span>
+          </div>
+          <a class="project-link" href="https://github.com/P-Sudhakar-tech/FastApply" target="_blank" rel="noopener">
             View Repository
             <svg viewBox="0 0 24 24" width="14" height="14"><path d="M7 17 17 7M17 7H9M17 7v8" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
