@@ -554,6 +554,13 @@ ul { list-style: none; }
   color: var(--accent);
   margin-top: auto;
 }
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.1rem;
+  margin-top: auto;
+}
+.project-links .project-link { margin-top: 0; }
 .project-link svg { stroke: currentColor; fill: none; stroke-width: 2; transition: transform 0.2s ease; }
 .project-link:hover svg { transform: translate(2px, -2px); }
 
